@@ -25,7 +25,7 @@ Turn any GitHub repository into a simple but powerful agile work environment.
 
 ---
 
-## Install Instructions
+## Installation Instructions
 
 ```sh
 git clone git@github.com:CSProjectsEAL/ScrumBaseRepository.git
