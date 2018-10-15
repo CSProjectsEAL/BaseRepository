@@ -14,7 +14,7 @@ Clone this repository when you want to start a new repository and reuse template
 Turn any GitHub repository into a simple but powerful agile work environment.
 
 **Summary:**
-+ [Installation Instructions]
++ [Installation Instructions](#install-instructions) 
 + [How it works](#how-it-works)
 + [1. Create issues as backlog items](#1-create-issues-as-backlog-items)
 + [2. Add labels to issues](#2-add-labels-to-issues)
