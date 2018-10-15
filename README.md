@@ -27,7 +27,6 @@ git clone git@github.com:CSProjectsEAL/ScrumBaseRepository.git
 
 - https://gist.github.com/alex855k/69de4efdc7464eb904cbd3ea3df61dfa
 
-_
 
 # Credit goes to https://github.com/jvandemo/github-scrum-workflow/blob/master/README.md
 
