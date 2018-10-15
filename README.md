@@ -1,4 +1,4 @@
-https://img.shields.io/badge/waffle.io-dependency-yellowgreen.svg
+<img src="https://img.shields.io/badge/waffle.io-dependency-yellowgreen.svg" />
 
 # Scrum Base Repository
 
