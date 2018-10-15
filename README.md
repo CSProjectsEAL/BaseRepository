@@ -23,7 +23,7 @@ git clone git@github.com:monosolutions/EC2-PHP-Bootstrap.git
 	git push -u origin master
 ```
 
-Based on
+# Based on https://github.com/jvandemo/github-scrum-workflow/blob/master/README.md
 
 <img src="https://cloud.githubusercontent.com/assets/1859381/5397698/9972fe22-815c-11e4-8be6-21e1d0d05849.jpg" alt="codecat" align="right">
 
