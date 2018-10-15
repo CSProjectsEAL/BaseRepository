@@ -25,7 +25,9 @@ git clone git@github.com:CSProjectsEAL/ScrumBaseRepository.git
 	git push -u origin master
 ```
 
-- On the new repository if you want to reuse the labels that this repository has, go to github.com/yourusername/newreponame/labels page and open the js developer console in your browser. Then copy in the script found in the gist below:
+- On the new repository if you want to reuse the labels that this repository has:
+	- go to github.com/yourusername/newreponame/labels page and open the js developer console in your browser. 
+	- Copy in the script found in the gist below:
 
 - https://gist.github.com/alex855k/69de4efdc7464eb904cbd3ea3df61dfa
 
