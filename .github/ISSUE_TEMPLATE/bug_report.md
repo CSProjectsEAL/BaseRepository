@@ -7,9 +7,8 @@ about: Submit a bug report to help us improve
 
 (A clear and concise description of what the bug is)
 
-### Have you read the [Contributing Guidelines on issues](https://github.com/facebook/Docusaurus/blob/master/CONTRIBUTING.md#reporting-new-issues)?
-
-(Write your answer here.)
+## Platform
+(What agent were you using when the bug happend mobile)
 
 ## To Reproduce
 
@@ -18,6 +17,7 @@ about: Submit a bug report to help us improve
 1.
 1.
 1.
+
 
 ## Expected behavior
 
