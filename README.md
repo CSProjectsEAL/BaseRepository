@@ -2,7 +2,7 @@
 
 # Scrum Base Repository
 
-This is for when you want to start an public github project and you want to manage your scrum workflow for free, without depending on project management tools that you'll eventually need to pay for. Pull requests and issue templates are already setup for you, however to copy in labels follow [Label Installation Instructions](#Copy-labels-from-this-repository).
+This is for when you want to start an public github project and you want to manage your scrum workflow for free, without depending on project management tools that you'll eventually need to pay for. Pull requests and issue templates are already setup for you, however to copy in labels follow [Copy labels from this repository](#Copy-labels-from-this-repository).
 
 # HOWTO : Use GitHub for scrum workflow
 
