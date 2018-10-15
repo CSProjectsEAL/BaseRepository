@@ -1,6 +1,6 @@
 ---
-name: :page_facing_up: Documentation
-about: Task related to documentation of the project.
+name: 🐛 Bug Report
+about: Submit a bug report to help us improve
 ---
 
 ## :page_facing_up: Documentation
