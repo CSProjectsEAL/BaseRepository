@@ -40,22 +40,5 @@ about: Submit a bug report to help us improve
 
 (Write what happened. Add screenshots, if applicable.)
 
-## Reproducible Demo
-
-(Paste the link to an example repo, including a `siteConfig.js`, and exact instructions to reproduce the issue.)
-
-<!--
-  What happens if you skip this step?
-
-  Someone will read your bug report, and maybe will be able to help you,
-  but it’s unlikely that it will get much attention from the team. Eventually,
-  the issue will likely get closed in favor of issues that have reproducible demos.
-
-  Please remember that:
-
-    * Issues without reproducible demos have a very low priority.
-    * The person fixing the bug would have to do that anyway. Please be respectful of their time.
-    * You might figure out the issues yourself as you work on extracting it.
 
   Thanks for helping us help you!
--->
