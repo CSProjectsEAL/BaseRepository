@@ -1,17 +1,26 @@
 ---
-name: Feature request
-about: Suggest an idea for this project
-
+name: 🚀 Feature request
+about: Submit a proposal/request for a new feature
 ---
 
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+## 🚀 Feature request
 
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
+(A clear and concise description of what the feature is.)
 
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
+## Motivation
 
-**Additional context**
-Add any other context or screenshots about the feature request here.
+(Please outline the motivation for the proposal.)
+
+## Pitch
+
+(Please explain why this feature should be implemented and how it would be used.)
+
+<!--
+  What happens if you skip this step?
+
+  Someone will read your feature proposal and maybe will be able to help you,
+  but it’s unlikely that it will get much attention from the team. Eventually,
+  the issue will likely get closed in favor of issues that have better explanations
+
+  Thanks for helping us help you!
+-->
