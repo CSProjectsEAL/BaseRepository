@@ -1,6 +1,7 @@
 ---
-name: 🐛 Bug report
+name: "\U0001F41B Bug report"
 about: Submit a bug report to help us improve
+
 ---
 
 ## 🐛 Bug report

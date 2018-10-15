@@ -1,6 +1,7 @@
 ---
-name: 🚀 Feature request
+name: "\U0001F680 Feature request"
 about: Submit a proposal/request for a new feature
+
 ---
 
 ## 🚀 Feature request
