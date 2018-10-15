@@ -103,7 +103,7 @@ To use waffle.io just add the repository through the /CSEALProjects organisation
 - `type:bug`: bug
 - `type:hotfix`: fix that requires immediate attention
 - `type:feature`: a suggestion for a new feature
-- `type:story`: a new feature in the shape of description from the point of view of a user note: stories should be written so they are <a href="https://agileforall.com/vertical-slices-and-scale/">vertically sliced</a>
+- `type:story`: a new feature in the shape of description from the point of view of a user note: stories should be written so they are <a href="https://agileforall.com/vertical-slices-and-scale/" target="_blank">vertically sliced</a>
 - `type:infrastructure`: infrastructure related change or addition
 - `type:performance`: performance related issue
 - `type:refactor`: refactor issue for developers, if something is missing abstraction or confusing
