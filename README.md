@@ -1,4 +1,4 @@
-<a href="waffle.io" target='_blank'><img src="https://img.shields.io/badge/waffle.io-dependency-yellowgreen.svg" /></a>
+<a href="https://waffle.io" target='_blank'><img src="https://img.shields.io/badge/waffle.io-dependency-yellowgreen.svg" /></a>
 
 # Scrum Base Repository
 
