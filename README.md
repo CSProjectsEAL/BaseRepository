@@ -2,8 +2,7 @@
 
 # Scrum Base Repository
 
-Clone this repository when you want to start a new repository and reuse templates and labels that was used in previous projects. Using scrum and managed in github.
-
+This is for when you want to start an public github project and you want to manage your scrum workflow for free, without depending on project management tools that you'll eventually need to pay for. Pull requests and issue templates are already setup for you, however to copy in labels follow [Label Installation Instructions](#Copy-labels-from-this-repository).
 
 # HOWTO : Use GitHub for scrum workflow
 
@@ -11,7 +10,7 @@ Clone this repository when you want to start a new repository and reuse template
 
 <img src="https://cloud.githubusercontent.com/assets/1859381/5397698/9972fe22-815c-11e4-8be6-21e1d0d05849.jpg" alt="codecat" align="right">
 
-Turn any GitHub repository into a simple but powerful agile work environment.
+Turn any public GitHub repository into a simple but powerful agile work environment.
 
 **Summary:**
 + [Installation Instructions](#install-instructions) 
@@ -24,6 +23,13 @@ Turn any GitHub repository into a simple but powerful agile work environment.
 + [Change log](#change-log)
 
 ---
+
+## How it works
+
+- Backlog items are reported as **issues**
+- Meta data are assigned to items as **labels** or in the case of **points** you should you waffle.io.
+- **milestones** are used to group issues in sprints
+
 
 ## Installation Instructions
 
@@ -45,7 +51,7 @@ git clone git@github.com:CSProjectsEAL/ScrumBaseRepository.git
 	git push -u origin master
 ```
 
-### If you want to reuse the labels from this repository
+### Copy labels from this repository
 	- Open the github.com/yourusername/newreponame/labels page
 	- Open the js developer console in your browser. 
 	- Copy in the script found in the gist below:
@@ -59,12 +65,6 @@ git clone git@github.com:CSProjectsEAL/ScrumBaseRepository.git
 	git remote add origin [NameOfRepository]
 	git push -u origin master
 ```
-
-## How it works
-
-- items are reported as **issues**
-- points and meta data are assigned to items as **labels**
-- **milestones** are used to group issues in sprints
 
 ## 1. Create issues as backlog items
 
@@ -80,11 +80,13 @@ Add the following labels to your repository:
 
 ### Priorities
 
+When assigning
+
 `priority` labels allow you to prioritize items in your backlog e.g.:
 
-- `priority: low`
-- `priority: medium`
-- `priority: high`
+- `priority: low` Could implement this.
+- `priority: medium` Should implement this.
+- `priority: high` Must implement this.
 
 ### Points
 
@@ -106,8 +108,8 @@ To use waffle.io just add the repository through the /CSEALProjects organisation
 - `type:story`: a new feature in the shape of description from the point of view of a user note: stories should be written so they are <a href="https://agileforall.com/vertical-slices-and-scale/" target="_blank">vertically sliced</a>
 - `type:infrastructure`: infrastructure related change or addition
 - `type:performance`: performance related issue
-- `type:refactor`: refactor issue for developers, if something is missing abstraction or confusing
-- `type:test`: Developer related issue for review test related issues, if something is missing from the tests
+- `type:refactor`: Contribution issue: related to refactoring, if something is missing abstraction or not adhering to coding standards
+- `type:test`: Contribution issue: for review test related issues, if something is missing from the tests, acceptance criteria etc.
 
 ### Other
 
