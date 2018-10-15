@@ -32,11 +32,11 @@ git clone git@github.com:CSProjectsEAL/ScrumBaseRepository.git
 - https://gist.github.com/alex855k/69de4efdc7464eb904cbd3ea3df61dfa
 
 
-# Credit goes to https://github.com/jvandemo/github-scrum-workflow/blob/master/README.md
+# HOWTO : GitHub scrum workflow
+
+##### Credit goes to https://github.com/jvandemo/github-scrum-workflow/blob/master/README.md
 
 <img src="https://cloud.githubusercontent.com/assets/1859381/5397698/9972fe22-815c-11e4-8be6-21e1d0d05849.jpg" alt="codecat" align="right">
-
-# HOWTO : GitHub scrum workflow
 
 Turn any GitHub repository into a simple but powerful agile work environment.
 
