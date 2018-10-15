@@ -1,4 +1,4 @@
-# ScrumBaseRepository
+# Scrum Base Repository
 
 Clone this repository when you want to start a new repository but reuse templates and labels that we've previously used in projects managed in github.
 
@@ -6,7 +6,7 @@ Clone this repository when you want to start a new repository but reuse template
 ## Install Instructions
 
 ```sh
-git clone git@github.com:monosolutions/EC2-PHP-Bootstrap.git
+git clone git@github.com:CSProjectsEAL/ScrumBaseRepository.git
 ```
 
 - Go into the newly created folder and run the following command:
@@ -23,11 +23,16 @@ git clone git@github.com:monosolutions/EC2-PHP-Bootstrap.git
 	git push -u origin master
 ```
 
-# Based on https://github.com/jvandemo/github-scrum-workflow/blob/master/README.md
+- On the new repository if you want to reuse the labels that this repository has, go to github.com/username/reponame/labels page and open the js developer console. Then copy in the script found in the gist below:
+
+- https://gist.github.com/alex855k/69de4efdc7464eb904cbd3ea3df61dfa
+
+
+# Credit goes on https://github.com/jvandemo/github-scrum-workflow/blob/master/README.md
 
 <img src="https://cloud.githubusercontent.com/assets/1859381/5397698/9972fe22-815c-11e4-8be6-21e1d0d05849.jpg" alt="codecat" align="right">
 
-# GitHub scrum workflow
+# HOWTO : GitHub scrum workflow
 
 Turn any GitHub repository into a simple but powerful agile work environment.
 
