@@ -5,6 +5,26 @@
 Clone this repository when you want to start a new repository and reuse templates and labels that was used in previous projects. Using scrum and managed in github.
 
 
+# HOWTO : Use GitHub for scrum workflow
+
+##### Credit goes to https://github.com/jvandemo/github-scrum-workflow/blob/master/README.md
+
+<img src="https://cloud.githubusercontent.com/assets/1859381/5397698/9972fe22-815c-11e4-8be6-21e1d0d05849.jpg" alt="codecat" align="right">
+
+Turn any GitHub repository into a simple but powerful agile work environment.
+
+**Summary:**
++ [Installation Instructions]
++ [How it works](#how-it-works)
++ [1. Create issues as backlog items](#1-create-issues-as-backlog-items)
++ [2. Add labels to issues](#2-add-labels-to-issues)
++ [3. Define sprints as milestones](#3-define-sprints-as-milestones)
++ [Overview](#overview)
++ [Helpful links](#helpful-links)
++ [Change log](#change-log)
+
+---
+
 ## Install Instructions
 
 ```sh
@@ -25,32 +45,20 @@ git clone git@github.com:CSProjectsEAL/ScrumBaseRepository.git
 	git push -u origin master
 ```
 
-- On the new repository if you want to reuse the labels that this repository has:
-	- go to github.com/yourusername/newreponame/labels page and open the js developer console in your browser. 
+### If you want to reuse the labels from this repository
+	- Open the github.com/yourusername/newreponame/labels page
+	- Open the js developer console in your browser. 
 	- Copy in the script found in the gist below:
 
 - https://gist.github.com/alex855k/69de4efdc7464eb904cbd3ea3df61dfa
 
+- Add this infront
 
-# HOWTO : GitHub scrum workflow
-
-##### Credit goes to https://github.com/jvandemo/github-scrum-workflow/blob/master/README.md
-
-<img src="https://cloud.githubusercontent.com/assets/1859381/5397698/9972fe22-815c-11e4-8be6-21e1d0d05849.jpg" alt="codecat" align="right">
-
-Turn any GitHub repository into a simple but powerful agile work environment.
-
-**Summary:**
-
-+ [How it works](#how-it-works)
-+ [1. Create issues as backlog items](#1-create-issues-as-backlog-items)
-+ [2. Add labels to issues](#2-add-labels-to-issues)
-+ [3. Define sprints as milestones](#3-define-sprints-as-milestones)
-+ [Overview](#overview)
-+ [Helpful links](#helpful-links)
-+ [Change log](#change-log)
-
----
+```sh
+	git init
+	git remote add origin [NameOfRepository]
+	git push -u origin master
+```
 
 ## How it works
 
