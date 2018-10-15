@@ -88,17 +88,13 @@ Add the following labels to your repository:
 
 ### Points
 
-Add these extra labels for points, or use waffle.io framework to manage that kind of meta date
+Points meta-data is added using the wrapping project management framework waffle.io.
 
-`point` labels allow you to to assign velocity points to individual items (issues) e.g. using [Fibonacci numbers](http://en.wikipedia.org/wiki/Fibonacci_number):
+Waffle.io allows you to assign velocity points to individual items (issues) e.g. using [Fibonacci numbers](http://en.wikipedia.org/wiki/Fibonacci_number).
 
-- `point: 1`
-- `point: 2`
-- `point: 3`
-- `point: 5`
-- `point: 8`
-- `point: 13`
-- `point: 21`
+Based on these you can generate graphs based velocity etc. in waffle.io
+
+To use waffle.io just add the repository through the /CSEALProjects organisation.
 
 ### Types
 
@@ -106,12 +102,12 @@ Add these extra labels for points, or use waffle.io framework to manage that kin
 
 - `type:bug`: bug
 - `type:hotfix`: fix that requires immediate attention
-- `type:feature`: new feature
-- `type:feature`: new feature
+- `type:feature`: a suggestion for a new feature
+- `type:story`: a new feature in the shape of description from the point of view of a user note: stories should be written so they are <a href="https://agileforall.com/vertical-slices-and-scale/">vertically sliced</a>
 - `type:infrastructure`: infrastructure related change or addition
 - `type:performance`: performance related issue
-- `type:refactor`: refactor issue
-- `type:test`: test related issues
+- `type:refactor`: refactor issue for developers, if something is missing abstraction or confusing
+- `type:test`: Developer related issue for review test related issues, if something is missing from the tests
 
 ### Other
 
