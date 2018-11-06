@@ -54,19 +54,23 @@ git clone git@github.com:CSProjectsEAL/ScrumBaseRepository.git
 ```
 
 ### Copy labels from this repository
-	- Open the github.com/yourusername/newreponame/labels page
-	- Open the js developer console in your browser. 
-	- Copy in the script found in the gist below:
+
+#### Option 1 - Github API v3
+```sh
+Open the github.com/yourusername/newreponame/labels page
+Open the js developer console in your browser. 
+Copy in the script found in the gist below to extract labels
+```
+
+#### Option 2 - JS Script
+```sh
+Open the github.com/yourusername/newreponame/labels page
+Open the js developer console in your browser. 
+Copy in the script found in the gist below to extract labels
+```
 
 - https://gist.github.com/alex855k/69de4efdc7464eb904cbd3ea3df61dfa
 
-- Add this infront
-
-```sh
-	git init
-	git remote add origin [NameOfRepository]
-	git push -u origin master
-```
 
 ## 1. Create issues as backlog items
 
@@ -81,14 +85,15 @@ Issues allow you to have a conversation about the item and even allow you to cre
 Add the following labels to your repository:
 
 ### Priorities
-
-When assigning
+By default there is three labels used for prioritization based on MoSCoW, with the exclusion of would as it should just be removed the backlog. Use these when grooming user stories and tasks, so that you can judge what neds to be included needs to be included in a sprint.
 
 `priority` labels allow you to prioritize items in your backlog e.g.:
 
 - `priority: low` Could implement this.
 - `priority: medium` Should implement this.
 - `priority: high` Must implement this.
+
+Search by typing `is:priority:high` for instance, to find a specific priority. Use `no:priority` if you want all unprioritized issues.
 
 ### Points
 
@@ -114,6 +119,7 @@ To use waffle.io just add the repository through the /CSEALProjects organisation
 - `type:test`: Contribution issue: for review test related issues, if something is missing from the tests, acceptance criteria etc.
 
 ### Other
+- `type:WIP`: If the issue hasn't been finalized and needs further work before grooming.
 
 You can define and assign custom labels that you need within your workflow or organization.
 
