@@ -42,7 +42,7 @@ git clone git@github.com:CSProjectsEAL/ScrumBaseRepository.git
 - Go into the newly created folder and run the following command:
 
 ```sh
- rm -r remove .git
+ rm -rf remove .git
 ```
 
 - Initialise the git and push the base to a new repository.
