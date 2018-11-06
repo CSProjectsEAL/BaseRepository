@@ -56,9 +56,17 @@ git clone git@github.com:CSProjectsEAL/ScrumBaseRepository.git
 ### Copy labels from this repository
 
 #### Option 1 - Github API v3
-Not meant for production use, so is subject to change. Use at own discretion. If it doesn't anymore go to option 2.
+Not meant for production use, so is subject to change. Use at own discretion. If it doesn't work anymore go to option 2.
 
-- Open this link 
+- Retrieve the labels and store them locally
+```sh
+curl -X GET https://api.github.com/repos/CSProjectsEAL/ScrumBaseRepository/labels >> labels.json
+```
+- Post the labels to your new repository - make sure to replace GithubUserNameOrOrgName and YourRepositoryName in the URL below
+
+```sh
+curl -d @labels.json -X POST https://api.github.com/repos/GithubUserNameOrOrgName/YourRepositoryName/labels 
+```
 
 #### Option 2 - JS Script
 ```sh
