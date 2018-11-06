@@ -5,8 +5,8 @@ about: Submit a bug report to help us improve
 ---
 
 ## 🐛 Bug report
-
 (A clear and concise description of what the bug is)
+(Label as bug)
 
 ## Platform
 (What agent were you using when the bug happend mobile)
