@@ -56,11 +56,9 @@ git clone git@github.com:CSProjectsEAL/ScrumBaseRepository.git
 ### Copy labels from this repository
 
 #### Option 1 - Github API v3
-```sh
-Open the github.com/yourusername/newreponame/labels page
-Open the js developer console in your browser. 
-Copy in the script found in the gist below to extract labels
-```
+Not meant for production use, so is subject to change. Use at own discretion. If it doesn't anymore go to option 2.
+
+- Open this link 
 
 #### Option 2 - JS Script
 ```sh
@@ -70,6 +68,14 @@ Copy in the script found in the gist below to extract labels
 ```
 
 - https://gist.github.com/alex855k/69de4efdc7464eb904cbd3ea3df61dfa
+
+#### Option 3 - Github label manager
+
+Follow instructions found at this destionation:
+
+https://github.com/destan/github-label-manager
+
+Additional: https://medium.com/@dtinth/how-to-copy-github-labels-from-one-project-to-another-1857adc73e0f
 
 
 ## 1. Create issues as backlog items
@@ -103,13 +109,28 @@ Waffle.io allows you to assign velocity points to individual items (issues) e.g.
 
 Based on these you can generate graphs based velocity etc. in waffle.io
 
-To use waffle.io just add the repository through the /CSEALProjects organisation.
+To use waffle.io just add the repository, on the website and allow it OAuth access.
+
+#### Another option is to use labels:
+
+Add these labels.
+
+`point` labels allow you to to assign velocity points to individual items (issues) e.g. using [Fibonacci numbers](http://en.wikipedia.org/wiki/Fibonacci_number):
+
+- `point: 1`
+- `point: 2`
+- `point: 3`
+- `point: 5`
+- `point: 8`
+- `point: 13`
+- `point: 21`
+
 
 ### Types
 
 `type` labels allow you to easily filter items (issues) in the dashboard e.g.:
 
-- `type:bug`: bug
+- `type:bug`: A defect in the code that needs fixing
 - `type:hotfix`: fix that requires immediate attention
 - `type:feature`: a suggestion for a new feature
 - `type:story`: a new feature in the shape of description from the point of view of a user note: stories should be written so they are <a href="https://agileforall.com/vertical-slices-and-scale/" target="_blank">vertically sliced</a>
@@ -119,7 +140,7 @@ To use waffle.io just add the repository through the /CSEALProjects organisation
 - `type:test`: Contribution issue: for review test related issues, if something is missing from the tests, acceptance criteria etc.
 
 ### Other
-- `type:WIP`: If the issue hasn't been finalized and needs further work before grooming.
+- `type:WIP`: If the issue hasn't been finalized and needs further work before grooming, or answers from PO or stakeholder.
 
 You can define and assign custom labels that you need within your workflow or organization.
 
