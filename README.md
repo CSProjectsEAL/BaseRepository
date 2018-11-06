@@ -162,7 +162,9 @@ Image: [Scrum primer](http://www.scrumprimer.org/overview).
 
 ## Helpful links
 
+- [Introductons to agile](https://agileforall.com/resources/how-to-split-a-user-story/)
 - [Mastering GitHub issues](https://guides.github.com/features/issues/)
 - [Mastering GitHub markdown](https://guides.github.com/features/mastering-markdown/)
 - [GitHub Flavored Markdown](https://help.github.com/articles/github-flavored-markdown/)
 - [How to write pull requests](https://help.github.com/articles/github-flavored-markdown/)
+- [How to split user stories](https://agileforall.com/resources/how-to-split-a-user-story/)
